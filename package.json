@@ -1,0 +1,29 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "homepage": "https://github.com/sklyarix/Tic-Tac-Toe#readme",
+  "bugs": {
+    "url": "https://github.com/sklyarix/Tic-Tac-Toe/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sklyarix/Tic-Tac-Toe.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@telegram-apps/init-data-node": "^2.0.10",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11",
+    "telegraf": "^4.16.3"
+  }
+}
